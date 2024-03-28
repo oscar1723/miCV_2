@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mi CV</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1 style="text-align: center;">Hern&aacute;ndez Rodr&iacute;guez Oscar Ariel</h1>
+  </header>
+
+  <nav id="menu">
+    <ul >
+      <li class="seccion"><a href="#seccion">principal</a></li>
+      <li class="fotos"><a href="#fotos">fotos</a></li>
+      <li class="videos"><a href="#videos">v&iacute;deos</a></li>
+      <li class="contacto"><a href="#contacto">contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Presentación</h1>
+                  <h4>V&iacute;deo</h4>
+              </hgroup>
+              <time datetime="2024-03-04" pubdate>
+                publicado 04-03-2024
+              </time>
+        </header>
+          
+          <figure>
+            <iframe src="video/yo.mp4" frameborder="0"></iframe>
+                <!--<img id="imagen" src="img/me.jpeg">-->
+                <figcaption>
+                    Mi presentaci&oacute;n
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Instituto de procedencia</h1>
+                <h4>Instituto Tecnologico de Orizaba</h4>
+            </hgroup>
+            <time datetime="2024-03-04" pubdate>
+                publicado 04-03-2024
+            </time>
+         </header>
+         
+         <a href="https://maps.app.goo.gl/2d5eJYPTA1NkUeZM8">
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1887.865088464707!2d-97.0992628!3d18.8546615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeb2d35fed%3A0xba5f3840b0862949!2sTecNM%20-%20Campus%20Orizaba!5e0!3m2!1ses-419!2smx!4v1709664625381!5m2!1ses-419!2smx" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <figcaption></figcaption>
+          </figure>
+         </a>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+    <article id="fotos">
+      <header>
+        <hgroup>
+          <h1>Retrato</h1>
+          <h4>Fotos</h4>
+        </hgroup>
+        <time datetime="2024-03-05" pubdate>
+          publicado 05-04-2024
+        </time>
+      </header>
+      <img src="img/me.jpeg" height="20%" width="20%" alt="Yo">
+      <footer>
+      <p>comentarios (0)</p>
+    </footer>
+    </article>
+
+    <article id="videos">
+      <header>
+        <hgroup>
+          <h1>Galer&iacute;a</h1>
+          <h4>v&iacute;deos</h4>
+        </hgroup>
+        <time datetime="2024-03-05" pubdate>
+          publicado 05-04-2024
+        </time>
+      </header>
+      <iframe src="video/" frameborder="0"></iframe>
+      <footer>
+      <p>comentarios (0)</p>
+    </footer>
+    </article>
+
+    <article id="contacto">
+      <header>
+        <hgroup>
+          <h1>Contacto</h1>
+          <h4>Informaci&oacute;n personal</h4>
+        </hgroup>
+        <time datetime="2024-03-05" pubdate>
+          publicado 05-04-2024
+        </time>
+      </header>
+      <address>
+        Escrito por: <a href="mailto:oscarhdez003@gmail.com">Oscar Hern&aacute;ndez</a><br>
+        Tel&eacute;fono: +52 271 256 4987 <br>
+        Fort&iacute;n, Veracruz <br>
+      </address>
+      <footer>
+      <p>comentarios (0)</p>
+    </footer>
+    </article>
+</section> <!--Fin de section seccion-->
+
+
+<aside class="lista">
+  <a href="https://www.facebook.com/profile.php?id=100078932286244">
+    <figure>
+      <img id="img2" src="img/fb.jpeg" alt="">
+    </figure>
+  </a>
+  <a href="https://www.instagram.com/osc_ariel_hdz/">
+    <figure>
+      <img id="img1" src="img/ig.jpeg"  alt="">
+    </figure>
+  </a>  
+</aside>
+  <!--<aside id="columna">
+      <blockquote>Redes sociales</blockquote>
+      <blockquote>Mensaje número dos</blockquote>
+      <a href="https://www.facebook.com/profile.php?id=100078932286244">
+       <figure>
+         <img src="img/fb.jpeg" height="100" width="100" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/osc_ariel_hdz/">
+        <figure>
+          <img src="img/ig.jpeg" alt="instagram">
+        </figure>
+      </a>
+  </aside> Fin aside -->
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://orizaba.tecnm.mx/itocc/">ITO</a>
+      </address>
+  </footer>
+
+  
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
